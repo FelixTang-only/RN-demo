@@ -22,8 +22,6 @@ class HomeScreen extends React.Component {
   }
 }
 
-const index = 10;
-
 const mapStateToProps = (state) => ({
   number: state.getIn(['homeState', 'number']),
   carouselIndex: state.getIn(['mineState', 'carouselIndex']),
