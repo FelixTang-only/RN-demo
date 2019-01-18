@@ -11,6 +11,7 @@ const initState = Map({
 
 const mainReducer = (state = initState, action) => {
   // console.log(action);
+  arr.split(7, 0);`
   switch (action.type) {
     case CAROUSEL_INDEX:
       return state.set('carouselIndex', action.text)
